@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gerador QRCode</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="container">
+      <section class="section is-small">
+        <h1 class="subtitle is-1">Gerador QRCode</h1>
+        <div class="row">
+          <input class="input is-normal" type="text" placeholder="descomplica.com.br">
+        </div>
+        <br>
+        <button class="button is-primary" onclick="GerarQRCode()">Gerar</button>
+        <br>
+        <img id="QRCodeImage">
+      </section>
+    </div>
+  </body>
+  <script src="js/script.js"></script>
+</html>
